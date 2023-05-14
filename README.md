@@ -1,1 +1,4 @@
-# SSAFY_Algorithm
+# Algorithm
+
+## BOJ
+## Leet Code

@@ -1,7 +1,9 @@
+package com.baekjoon01;
+
 import java.io.*;
 import java.util.*;
 
-public class 별찍기 {
+public class BJ2447_별찍기 {
     static char[][] star;
     static int N;
     public static void main(String[] args) throws IOException {

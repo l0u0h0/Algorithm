@@ -9,10 +9,29 @@ public class BJ13460 {
     static int[] dx = {1, 0, -1, 0};
     static int[] dy = {0, 1, 0, -1};
 
+    // 다음 이동 칸 체크하는 메서드
+    // 이동불가면 0, 이동가능이면 1, 홀인원이면 2
+    // color => true > red, false > blue
+    private static int checkRange(String[][] map, int[] xy, boolean color) {
+        if (xy[0] < 1 || xy[0] > N - 2 || xy[1] < 1 || xy[1] > M - 2)
+            return 0;
+        if (map[xy[0]][xy[1]].equals("#"))
+            return 0;
+        if (color) {
+            if ()
+        }
+
+    }
+
     // 기울어진 방향으로 구슬 움직이는 함수
-    private static int[] move(int[] dxdy, int[] ball, String[][] map) {
+    private static int[] move(int redD, int blueD, int[] red, int[] blue, String[][] map) {
+        int redR = dx[redD];
+        int redC = dy[redD];
+        int blueR = dx[blueD];
+        int blueC = dy[blueD];
+
         while (true) {
-            if (map[])
+            if(checkRange())
         }
     }
 

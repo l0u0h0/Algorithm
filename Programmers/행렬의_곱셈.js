@@ -1,5 +1,4 @@
 function solution(arr1, arr2) {
-  const answer = [[]];
   let arrC, arrR, n;
   if (arr1.length == arr2[0].length) {
     arrC = arr1[0].length;
